@@ -1,1 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnCheckIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truck Check-In"/>
+
+    <Button
+        android:id="@+id/btnRepairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repairs"/>
+
+    <Button
+        android:id="@+id/btnReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reports"/>
+
+</LinearLayout>
