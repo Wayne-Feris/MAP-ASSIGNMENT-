@@ -16,21 +16,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnCheckIn.setOnClickListener {
-            startActivity(
-                Intent(this, CheckInActivity::class.java)
-            )
+            startActivity(Intent(this, CheckInActivity::class.java))
         }
 
-        binding.btnRepairs.setOnClickListener {
-            startActivity(
-                Intent(this, RepairActivity::class.java)
-            )
+        binding.btnRepair.setOnClickListener {
+            startActivity(Intent(this, RepairActivity::class.java))
         }
 
         binding.btnReports.setOnClickListener {
-            startActivity(
-                Intent(this, ReportActivity::class.java)
-            )
+            startActivity(Intent(this, ReportActivity::class.java))
         }
     }
 }
